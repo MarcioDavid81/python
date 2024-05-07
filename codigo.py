@@ -2,24 +2,38 @@ import pyautogui
 import time
 pyautogui.PAUSE = 1
 
-# Abre o menu iniciar
+
 pyautogui.press("win")
 pyautogui.write("chrome")
 pyautogui.press("enter")
-pyautogui.write("https://sistema.connectere.agr.br/usuarios/sign_in")
+pyautogui.write("https://dlp.hashtagtreinamentos.com/python/intensivao/login")
 pyautogui.press("enter")
 time.sleep(3)
-pyautogui.click(926, 630)
-time.sleep(1)
-pyautogui.press("enter")
-time.sleep(5)
-pyautogui.click(42, 266)
-time.sleep(1)
-pyautogui.click(729, 611)
-time.sleep(10)
-pyautogui.click(256, 541)
-pyautogui.press("enter")
+pyautogui.click(661, 509)
+pyautogui.write("marciodavid81@gmail.com")
 pyautogui.press("tab")
-pyautogui.press("tab")
+pyautogui.write("123456")
 pyautogui.press("tab")
 pyautogui.press("enter")
+time.sleep(3)
+pyautogui.click(656, 365)
+pyautogui.write("0001")
+pyautogui.press("tab")
+pyautogui.write("Sansung")
+pyautogui.press("tab")
+pyautogui.write("Galaxy Tab")
+pyautogui.press("tab")
+pyautogui.write("Tablet")
+pyautogui.press("tab")
+pyautogui.write("999,00")
+pyautogui.press("tab")
+pyautogui.write("750,00")
+pyautogui.press("tab")
+pyautogui.write("Cor: Preto")
+pyautogui.click(852, 695)
+
+
+
+
+
+
