@@ -37,3 +37,4 @@ pyautogui.click(852, 695)
 
 
 
+
